@@ -6,16 +6,18 @@
 # Profile file for bash user
 # Contains user-specific environment variables
 
-# Refresh terminal window
-alias refresh='source ~/.bash_profile'
+# Set path to source
+SRC="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# Edit files
-alias edprof='vim ~/.bash_profile'
-alias edrc='vim ~/.bashrc'
+# Navigation commands
+alias gostrap='cd $SRC/..'
+
+# Refresh terminal window
+alias refresh='source bash_profile.sh'
 
 # Set colors for terminal prompt
-export TERM=xterm-color
-source .bash_prompt
+#export TERM=xterm-color
+source bash_prompt.sh
 
 # Set colors for terminal commands
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'

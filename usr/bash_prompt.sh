@@ -2,7 +2,7 @@
 # Define style for bash prompt
 
 # Import color definitions
-source .bash_color
+source bash_color.sh
 
 # Set colors for prompt components
 ROOT_USER_COLOR=$COLOR_RED
