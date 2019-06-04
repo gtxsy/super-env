@@ -1,6 +1,6 @@
 # CHRISTIAN GONZALEZ
-# Bash 2016 Edition
-# cpgonzalez@wpi.edu
+# 2019
+# cpgonzalez@protonmail.com
 
 # .bash_profile
 # Profile file for bash user
