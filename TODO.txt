@@ -1,0 +1,2 @@
+Add brew support for Mac Installer
+Add brew PATH to bashrc
